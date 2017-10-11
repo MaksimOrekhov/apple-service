@@ -1,19 +1,21 @@
 import React, { Component } from 'react';
-import './styles/App.css'
-
+import Nav from './components/Nav'
+import Promo from './components/Promo'
 /*
 * В этом файле делается верстка
 * */
 class App extends Component {
   render () {
     return (
-      <div className="App">
+      <div>
 	      <header className="header">
+          <Nav />
+          <Promo />
 	      </header>
 	      <main>
 	      </main>
       </div>
-    );
+    )
   }
 }
 
