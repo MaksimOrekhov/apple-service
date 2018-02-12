@@ -1,5 +1,5 @@
 ---
-path: /pages/iphone-sell
+path: /other
 title: test
 price: '300'
 ---
